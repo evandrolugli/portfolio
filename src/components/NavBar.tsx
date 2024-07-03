@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Home, FileText, Project } from 'phosphor-react';
 
 export function NavBar() {
   return (

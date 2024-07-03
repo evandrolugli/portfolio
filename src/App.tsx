@@ -4,6 +4,8 @@ import { NavBar } from './components/NavBar';
 import { About } from './pages/About';
 import { Resume } from './pages/Resume';
 import { Projects } from './pages/Projects';
+import { Home, FileText, Project } from 'phosphor-react';
+import { RouteWithIcon } from "./components/RouteWithIcon";
 
 export function App() {
   return (

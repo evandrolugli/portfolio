@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaCode, FaServer, FaCloud, FaAws } from "react-icons/fa";
-import { FaAward, FaGraduationCap, FaCertificate, FaLanguage, FaTools, FaDatabase } from 'react-icons/fa';
+import { FaCode, FaTools, FaServer, FaDatabase, FaCloud, FaAws } from "react-icons/fa";
+import { FaAward, FaGraduationCap, FaCertificate, FaLanguage } from 'react-icons/fa';
 import { IoIosArrowRoundForward } from 'react-icons/io';
 
 export function Resume() {
@@ -8,7 +8,7 @@ export function Resume() {
     <div className="max-w-3xl mx-auto py-8 px-4">
       <header className="text-center mb-6">
         <h1 className="text-3xl font-bold">Evandro Lugli</h1>
-        <p className="text-lg text-gray-600">Melbourne, VIC | Email: evandro.lugli@gmail.com | LinkedIn</p>
+        <p className="text-base text-gray-600 flex-1">Melbourne, VIC | <strong>Email:</strong> evandro.lugli@gmail.com</p>
       </header>
 
       <section className="mb-8">
@@ -87,11 +87,11 @@ export function Resume() {
           </p>
           <ul className="list-disc list-inside text-gray-300">
              <li className="flex items-center mb-1">
-             <IoIosArrowRoundForward className="mr-2" />
+             <FaCode className="mr-2 size-3 text-green-300" />
               Assisting the reception by managing book fill-ups and ensuring efficient record-keeping.
             </li>
             <li className="flex items-center mb-1">
-             <IoIosArrowRoundForward className="mr-2" />
+            <FaCode className="mr-2 size-3 text-green-300" />
               Handling student card issuance and maintenance, ensuring accurate and up-to-date information.
             </li>
           </ul>
@@ -114,17 +114,17 @@ export function Resume() {
             As a member of the solutions’ team, I worked directly with Santander Bank, where I granted integration with back-end systems and facilitated efficient communication with external services.
           </p>
           <ul className="list-disc list-inside text-gray-300">
-             <li className="flex items-center mb-1">
-             <IoIosArrowRoundForward className="mr-2" />
-             Developed and maintained projects utilizing Java to deliver robust and scalable solutions.
+            <li className="flex items-center mb-1">
+              <FaCode className="mr-2 text-blue-300 size-3" />
+              Developed and maintained projects utilizing Java to deliver robust and scalable solutions.
             </li>
             <li className="flex items-center mb-1">
-             <IoIosArrowRoundForward className="mr-2" />
-             Utilized a range of technologies such as Java, Spring Framework, Microservices, Protocols (SOAP, REST, WSDL, JSON), MS SQL Server, Git, Unit Test, DevOps, Jenkins (Cloudbees), Openshift, and Azure.
+              <FaCode className="mr-2 text-blue-300 size-6" />
+              Utilized a range of technologies such as Java, Spring Framework, Microservices, Protocols (SOAP, REST, WSDL, JSON), MS SQL Server, Git, Unit Test, DevOps, Jenkins (Cloudbees), Openshift, and Azure.
             </li>
             <li className="flex items-center mb-1">
-             <IoIosArrowRoundForward className="mr-2" />
-             Worked in a team environment of nine technical staff in an agile environment using team-based methodologies and troubleshooting techniques.
+              <FaCode className="mr-2 text-blue-300 size-4" />
+              Worked in a team environment of nine technical staff in an agile environment using team-based methodologies and troubleshooting techniques.
             </li>
           </ul>
         </div>
@@ -146,15 +146,15 @@ export function Resume() {
           </p>
           <ul className="list-disc list-inside text-gray-300">
              <li className="flex items-center mb-1">
-             <IoIosArrowRoundForward className="mr-2" />
+             <FaCode className="mr-2 text-green-300 size-3" />
              Marketing analysis of the international education industry.
             </li>
             <li className="flex items-center mb-1">
-             <IoIosArrowRoundForward className="mr-2" />
+            <FaCode className="mr-2 text-green-300 size-3" />
              Managed a team of four marketing analysts: including scheduling and strategic forecasting.
             </li>
             <li className="flex items-center mb-1">
-             <IoIosArrowRoundForward className="mr-2" />
+            <FaCode className="mr-2 text-green-300 size-3" />
              Maintained direct communication with stakeholders, providing regular reports and key updates.
             </li>
           </ul>
@@ -178,15 +178,15 @@ export function Resume() {
           </p>
           <ul className="list-disc list-inside text-gray-300">
              <li className="flex items-center mb-1">
-             <IoIosArrowRoundForward className="mr-2" />
+             <FaCode className="mr-2 text-blue-300 size-4" />
              Developed and maintained projects utilizing front-end web technologies such as HTML, CSS, JavaScript, and C# as a back-end programming language.
             </li>
             <li className="flex items-center mb-1">
-             <IoIosArrowRoundForward className="mr-2" />
+            <FaCode className="mr-2 text-blue-300 size-3" />
              Modeling and data manipulation in Microsoft SQL Server database.
             </li>
             <li className="flex items-center mb-1">
-             <IoIosArrowRoundForward className="mr-2" />
+            <FaCode className="mr-2 text-blue-300 size-3" />
              Utilized Asp.Net MVC 2 and Asp.Net MVC 3 as web applications.
             </li>
           </ul>
@@ -210,11 +210,11 @@ export function Resume() {
           </p>
           <ul className="list-disc list-inside text-gray-300">
              <li className="flex items-center mb-1">
-             <IoIosArrowRoundForward className="mr-2" />
+             <FaCode className="mr-2 text-blue-300 size-3" />
              Maintained projects utilising technologies such as HTML, CSS, JavaScript, and C#.
             </li>
             <li className="flex items-center mb-1">
-             <IoIosArrowRoundForward className="mr-2" />
+            <FaCode className="mr-2 text-blue-300 size-3" />
              Modelling and data manipulation in Microsoft SQL Server database.
             </li>
           </ul>

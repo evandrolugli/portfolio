@@ -1,8 +1,7 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { FaPodcast, FaHeart, FaMusic, FaFilm, FaLink } from 'react-icons/fa';
-import { FaFutbol, FaChessKnight, FaCode, FaSwimmer, FaSmile, FaMicrophoneAlt } from 'react-icons/fa';
+import { FaSmile, FaMusic, FaFilm, FaMicrophoneAlt } from 'react-icons/fa';
+import { FaLink, FaHeart, FaFutbol, FaChessKnight, FaCode, FaSwimmer } from 'react-icons/fa';
 
 const interests = {
   songs: [

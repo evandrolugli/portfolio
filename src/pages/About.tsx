@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { FaPodcast, FaHeart, FaMusic, FaFilm, FaLink } from 'react-icons/fa';
-import { FaFutbol, FaChessKnight, FaCode, FaSwimmer, FaSmile } from 'react-icons/fa';
+import { FaFutbol, FaChessKnight, FaCode, FaSwimmer, FaSmile, FaMicrophoneAlt } from 'react-icons/fa';
 
 const interests = {
   songs: [
@@ -137,7 +137,7 @@ export function About() {
 
         <div className="mb-6">
           <h4 className="text-lg font-bold mb-4 flex items-center text-orange-300">
-            <FaPodcast className="mr-2 text-orange-400" /> Podcasts
+            <FaMicrophoneAlt className="mr-2 text-orange-400" /> Podcasts
           </h4>
           <div className="mb-6 grid grid-cols-3 gap-4">
             {randomPodcasts.map((podcast, index) => (

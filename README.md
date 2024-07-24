@@ -10,5 +10,5 @@
 - run: pnpm run dev
 
 # Improvement
-- add more projects
-
+- project images
+- 

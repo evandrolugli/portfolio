@@ -4,6 +4,14 @@ import { FaGithub } from 'react-icons/fa';
 export function Projects() {
   const projects = [
     {
+      title: "Trivia Tech",
+      description: "An AI-powered trivia project that generates questions based on selected difficulty and technology. Test your skills!",
+      technologies: ["OpenAI", "React", "Express", "Tailwind"],
+      image: "https://plus.unsplash.com/premium_photo-1679957333039-285fb913aa2b?q=80&w=2500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      github: "https://github.com/evandrolugli/trivia-api",
+      demo: "https://trivia-web-kohl.vercel.app/",
+    },
+    {
       title: "Podcast Summarizer",
       description: "Podcast Summarizer, using AI,",
       technologies: ["NodeJs", "ShadCN/UI", "Fastify", "Typescript"],

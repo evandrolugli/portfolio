@@ -21,6 +21,7 @@ const interests = {
     { name: 'The Intern', director: 'Nancy Meyers', thumbnail: 'https://via.placeholder.com/40', link: 'https://www.imdb.com/title/tt2361509/' }
   ],
   podcasts: [
+    { name: 'Conversations with Tylor', episode: 'Brian Winter on Brazil, Argentina and the Future of Latin America', link: 'https://open.spotify.com/episode/7qiIZj13NxEZ02pQKALoCx' },
     { name: 'Lex Fridman', episode: 'Neri Oxman', link: 'https://open.spotify.com/episode/1SNVM3bvU5qLfSaVgzJXYu' },
     { name: 'Lex Fridman', episode: 'Yuval Noah Harari', link: 'https://open.spotify.com/episode/4cDwZmBR7pbGsEM4dVmCl2' },
     { name: 'RealLife English', episode: 'School English vs Street English', link: 'https://open.spotify.com/episode/607vwqGbRqX87tT4yJOQzc' }

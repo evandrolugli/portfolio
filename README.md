@@ -7,7 +7,7 @@
 - react-icons/fa (library for icons)
 
 # Coding
-
+- run: pnpm run dev
 
 # Improvement
 - add more projects

@@ -6,6 +6,4 @@
 
 - react-icons/fa (library for icons)
 
-# Package Manager
-- pnpm
 

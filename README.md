@@ -1,4 +1,4 @@
-# Technology
+## Technology
 - pnpm (package manager)
 - vite (build tool)
 - typescript (language)
@@ -6,9 +6,9 @@
 - shadCN/UI (ui component library)
 - react-icons/fa (library for icons)
 
-# Coding
+## Coding
 - run: pnpm run dev
 
-# Improvement
+## Improvement
 - project images
-- 
+

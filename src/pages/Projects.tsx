@@ -4,10 +4,18 @@ import { FaGithub } from 'react-icons/fa';
 export function Projects() {
   const projects = [
     {
+      title: "Ignite Feed",
+      description: "A demo of React and TypeScript basics, showcasing the core fundamentals in action!",
+      technologies: ["Vite", "React", "Typescript"],
+      image: "/src/img/ignite.png",
+      github: "https://github.com/evandrolugli/react-fundamentals-ts",
+      demo: "https://ignite-fundamentals.vercel.app/",
+    },
+    {
       title: "Trivia Tech",
       description: "An AI-powered trivia project that generates questions based on selected difficulty and technology. Test your skills!",
       technologies: ["OpenAI", "React", "Express", "Tailwind"],
-      image: "https://plus.unsplash.com/premium_photo-1679957333039-285fb913aa2b?q=80&w=2500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image: "/src/img/trivia-tech.png",
       github: "https://github.com/evandrolugli/trivia-api",
       demo: "https://trivia-web-kohl.vercel.app/",
     },
@@ -44,7 +52,13 @@ export function Projects() {
     <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-2">
       {projects.map((project) => (
         <div key={project.title} className="bg-gray-900 shadow-lg rounded-lg p-4">
-          <img src={project.image} alt={project.title} className="mb-2 rounded-lg" style={{ maxHeight: '150px', objectFit: 'cover' }} />
+          <div className="mb-2 overflow-hidden rounded-lg" style={{ height: '150px' }}>
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-full object-cover"
+              />
+            </div>
           <h3 className="text-lg font-bold mb-2 text-white">{project.title}</h3>
           <p className="text-gray-400 mb-2">{project.description}</p>
           <div className="flex items-center flex-wrap mb-2">
